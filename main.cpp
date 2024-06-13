@@ -8,7 +8,7 @@ using namespace std;
 
 int main() {
     string i;
-    int count = 0; // Counter for each alternate 'Enter click'
+    int count = 0; // Counter for each alternate click of Enter
     do {
         getline(cin, i); // Getting input by the user
         if (count % 2 == 0) { //Playing the song the first time that Enter is pressed
@@ -26,7 +26,6 @@ int main() {
             cout << "Music Paused...\n";
             count += 1; // Incramenting counter so that music plays next time Enter is pressed
         }
-
 
     } while (true);
 
