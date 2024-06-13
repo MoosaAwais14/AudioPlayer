@@ -13,7 +13,7 @@ int main() {
         getline(cin, i); // Getting input by the user
         if (count % 2 == 0) { //Playing the song the first time that Enter is pressed
            cout << "Music Now Playing...\n";
-           PlaySound( // I used AI to comment lines 14-17
+           PlaySound( // I used AI to comment this function
                TEXT("Mzg1ODMxNTIzMzg1ODM3_JzthsfvUY24.wav"), // The filename of the sound to be played
                NULL,                                         // Indicates the sound resource is specified by filename
                SND_FILENAME | SND_ASYNC | SND_LOOP           // Flags: SND_FILENAME (specifies filename), SND_ASYNC (play asynchronously), SND_LOOP (loop the sound)
